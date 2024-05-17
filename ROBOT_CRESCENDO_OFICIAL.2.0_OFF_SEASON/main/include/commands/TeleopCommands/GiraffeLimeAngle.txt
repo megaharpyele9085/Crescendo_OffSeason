@@ -1,0 +1,34 @@
+Going to map the functionalaty of the auto giraffe angle with lime get dist method
+
+Imagnine that we've to change the Giraffe angle depending  the distance between the April
+and the robot.Seeing this , its important to define one first degree (f(x)) equation to 
+determine the specific angle. 
+
+
+f(x) = x.x
+
+where
+
+f(x) = desiredAngle
+
+x = distApril
+
+                 f(x)
+                 ^
+                 |
+                 |
+                 |          |
+                 |         | |
+                 |        |   |
+                 |       |     |
+                 |      |       |
+                 |     |         |
+                 |    |           |
+                 |   |             |
+                 |  |               |
+                 | |                 |
+                  --------------------------------> x
+
+going to the pseudo code
+
+desiredGiraffeAngle(x) = AprilDistance_to_the_robot

@@ -1,0 +1,61 @@
+All  Ids used by the Top subsystems
+*********************************************
+ShooterSubsystem: 
+
+LeftShooterMotorId -> 21 
+RightShooterMotorId -> 22
+---------------------------------------------
+ElevatorSubsystem:
+
+leftElevatorMotorId -> 23
+rightElevatorMotorId -> 24
+---------------------------------------------
+FlipSubsystem:
+
+FlipMotorId -> 25
+---------------------------------------------
+GiraffeSubsystem:
+
+GiraffeMotorId -> 26
+---------------------------------------------
+IntakeSubsystem:
+
+leftIntakeMotorId -> 27
+rightIntakeMotorId -> 28
+---------------------------------------------
+
+
+
+All  Ids used by the SwerveSubsystem
+*********************************************
+FrontLeftModule:
+
+Drive Motor Id: 13
+
+Turning Motor Id: 14
+
+Sensor Id : 31
+---------------------------------------------
+FrontRightModule:
+
+Drive Motor Id: 12
+
+Turning Motor Id: 11
+
+Sensor Id : 32
+---------------------------------------------
+ReaLeftModule:
+
+Drive Motor Id: 16
+
+Turning Motor Id: 15
+
+Sensor Id : 33
+---------------------------------------------
+RearRightModule:
+
+Drive Motor Id: 17
+
+Turning Motor Id: 18
+
+Sensor Id : 34

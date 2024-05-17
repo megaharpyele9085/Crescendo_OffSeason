@@ -1,0 +1,56 @@
+Going to map the functionalaty of the auto giraffe angle with lime get dist method
+
+Imagnine that we've to change the Giraffe angle depending  the distance between the April
+and the robot.Seeing this , its important to define one first degree (f(x)) equation to 
+determine the specific angle. 
+
+
+f(x) = x.x
+
+where
+
+f(x) = desiredAngle
+
+x = distApril
+
+                 f(x)
+                 ^
+                 |
+                 |
+                 |          |
+                 |         | |
+                 |        |   |
+                 |       |     |
+                 |      |       |
+                 |     |         |
+                 |    |           |
+                 |   |             |
+                 |  |               |
+                 | |                 |
+                  --------------------------------> x
+
+going to the pseudo code
+
+desiredAngle = limeLightFront_Subsystem.GetDist()
+-----------------------------------------------------------------------------------------
+MIN_VALUE
+69.8730 absolute angle is for - 39º
+
+
+MAX_VALUE
+48.2519 absolute angle is for - 61º
+
+
+69.8730 - 39º
+    X   - 61º
+
+    if absolute reading = 69
+    return 39
+
+    else if absolute reading = 48
+    return 61
+
+    else if absolute reading = 69> x >48
+
+    return           
+
